@@ -1,4 +1,5 @@
-IntelliSQR Intern Assignment
+**IntelliSQR Intern Assignment**
+
 This is a full-stack web application built for the IntelliSQR Full-Stack Intern Assignment. It consists of:
 
 A React + TypeScript frontend that follows a provided Figma design.
@@ -60,32 +61,3 @@ Method	Endpoint	Description
 POST	/api/auth/register	Register a new user
 POST	/api/auth/login	User login
 GET	/api/auth/me	Get logged-in user details
-
-Project Structure
-plaintext
-Copy
-Edit
-intellisqr-intern-assignment/
-│── frontend/        # React frontend
-│   ├── src/
-│   │   ├── components/  # Reusable UI components
-│   │   ├── pages/       # Page components
-│   │   ├── hooks/       # Custom hooks
-│   │   ├── api/         # API handlers
-│   │   ├── App.tsx      # Main app file
-│   │   ├── index.tsx    # React entry point
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── vite.config.ts
-│── backend/         # Node.js backend
-│   ├── src/
-│   │   ├── controllers/  # Business logic
-│   │   ├── routes/       # API routes
-│   │   ├── models/       # Prisma models
-│   │   ├── middleware/   # Auth middleware
-│   │   ├── server.ts     # Main server file
-│   ├── package.json
-│   ├── prisma/
-│   │   ├── schema.prisma # Prisma schema
-│   ├── .env
-│── README.md        # Project instructions
