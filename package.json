@@ -1,0 +1,19 @@
+{
+    "name": "intellisqr_asgn",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd backend && npm run dev",
+        "client": "cd frontend && npm start"
+    },
+    "dependencies": {
+        "concurrently": "^7.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.14",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
+    },
+    "type": "module"
+}
